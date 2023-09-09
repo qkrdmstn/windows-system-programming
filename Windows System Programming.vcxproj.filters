@@ -16,8 +16,17 @@
     <Filter Include="소스 파일\Chapter2">
       <UniqueIdentifier>{2a8a0bba-b846-490d-af59-6c26734d2e00}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter3">
+      <UniqueIdentifier>{25af431f-5e7c-48b6-b139-a536b5a10b19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Chapter2\MBCS_WBCS1.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter2\MBCS_WBCS2.cpp">
+      <Filter>소스 파일\Chapter2</Filter>
+    </ClCompile>
     <ClCompile Include="Chapter2\MBCS1.cpp">
       <Filter>소스 파일\Chapter2</Filter>
     </ClCompile>
@@ -33,14 +42,23 @@
     <ClCompile Include="Chapter2\WBCS3.cpp">
       <Filter>소스 파일\Chapter2</Filter>
     </ClCompile>
-    <ClCompile Include="WinString.cpp">
+    <ClCompile Include="Chapter2\WinString.cpp">
       <Filter>소스 파일\Chapter2</Filter>
     </ClCompile>
-    <ClCompile Include="MBCS_WBCS1.cpp">
-      <Filter>소스 파일\Chapter2</Filter>
+    <ClCompile Include="PolymorphicType1.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="MBCS_WBCS2.cpp">
-      <Filter>소스 파일\Chapter2</Filter>
+    <ClCompile Include="PolymorphicType2.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="GetLastError.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorStateChange.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPrmpt_One.cpp">
+      <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

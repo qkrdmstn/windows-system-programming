@@ -30,7 +30,6 @@ typedef CONST WCHAR * LPCWSTR
 */
 
 /*
-#include <tchar.h>
 
 #ifdef UNICODE
     typedef WCHAR TCHAR;
@@ -54,6 +53,8 @@ typedef CONST WCHAR * LPCWSTR
 */
 
 /*
+#include <tchar.h>
+
 #ifdef UNICODE
     #define _tmain wmain
     #define _tprintf wprintf
@@ -64,3 +65,4 @@ typedef CONST WCHAR * LPCWSTR
     ...
 #endif
 */
+
