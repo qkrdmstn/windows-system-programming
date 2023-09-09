@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	char str[] = "ABC한글";
+	char str[] = "ABC한글"; //MBCS 기반 형식 확인
 	int size = sizeof(str);
 	int len = strlen(str);
 
