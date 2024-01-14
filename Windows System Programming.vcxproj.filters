@@ -19,6 +19,27 @@
     <Filter Include="소스 파일\Chapter3">
       <UniqueIdentifier>{25af431f-5e7c-48b6-b139-a536b5a10b19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter6">
+      <UniqueIdentifier>{773bb60d-a634-4b1e-a923-026cd82426de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter5">
+      <UniqueIdentifier>{fa8fc704-c3e5-4c6f-8b8f-6945dca0ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter7">
+      <UniqueIdentifier>{0f5222cb-7ba7-43d2-b3c3-08ba44023b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter8">
+      <UniqueIdentifier>{088b8a87-4a9f-4746-b79b-35abaf3ba804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter12">
+      <UniqueIdentifier>{f8853ecc-9ce9-47e6-a402-08b058178609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter13">
+      <UniqueIdentifier>{93391318-bfa4-4366-aaef-dbff9dc8fae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter15">
+      <UniqueIdentifier>{0c361762-8d86-4e8e-8f5a-f8ef6a814bcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter2\MBCS_WBCS1.cpp">
@@ -45,20 +66,101 @@
     <ClCompile Include="Chapter2\WinString.cpp">
       <Filter>소스 파일\Chapter2</Filter>
     </ClCompile>
-    <ClCompile Include="PolymorphicType1.cpp">
+    <ClCompile Include="chapter3\CommandPrmpt_One.cpp">
       <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="PolymorphicType2.cpp">
+    <ClCompile Include="chapter3\ErrorStateChange.cpp">
       <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="GetLastError.cpp">
+    <ClCompile Include="chapter3\GetLastError.cpp">
       <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="ErrorStateChange.cpp">
+    <ClCompile Include="chapter3\PolymorphicType1.cpp">
       <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="CommandPrmpt_One.cpp">
+    <ClCompile Include="chapter3\PolymorphicType2.cpp">
       <Filter>소스 파일\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5\AdderProcess.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5\CreateProcess.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5\WinSysDir.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7\Func7.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7\MailReceiver.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7\MailSender.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7\NonStopAdderManager.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7\PartAdder.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7\Sender.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\Func6.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\KernelObjProb1.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\KernelObjProb2.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\KerObjShare.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\Operation1.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\Operation2.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\OperationStateChild.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\OperationStateParent.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter8\Func8.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter12\CountThread.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter12\Func12.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter12\strtok.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter12\ThreadAdderOne.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter12\ThreadAdderTwo.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="Func13.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="Func15.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="Func16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Func18.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
